@@ -51,7 +51,18 @@ footer span{
     display: none;
 }
 
+#menu_3{
+    width: 120px;
+    height: 5px;
+    overflow: hidden;
+    transition: width 2s height 2s;
+}
 
+#menu_3:hover{
+    position: absolute;
+    width: 120px;
+    height: 150px;
+}
 /*Estilo imágenes*/
 
 #img_2{
