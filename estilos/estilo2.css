@@ -37,7 +37,36 @@ footer span{
 
 }
 /*Media Queries*/
-@media only screen and(max-width:650px){  #contenedor{
+@media only screen and(max-width:800px){  #contenedor{
        width:100%;
 }
+}
+
+
+/*Estilo imágenes*/
+#img_1{
+    display: block;
+}
+#img_2{
+    display: none; /*El elemento desaparece y no se encuentra en la consola, mientras que con Opacity, simplemente se le asigna una transparencia de cero*/
+}
+#contenedor{
+    width:100%;
+}
+
+
+/*Estilo para el menú 2*/
+#menu_2{
+    width:120px;
+    position:absolute;
+    right:0px;
+}
+
+/*Estilo de los íconos*/
+.fa-bars{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 2rem;
+    color: white;
 }
